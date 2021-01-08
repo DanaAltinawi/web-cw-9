@@ -41,7 +41,8 @@
         <h5 class="card-title">
           <span>Creme Brulee Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <input value="0" type="number" id="0">
+        <button onclick="addProduct(0)" type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -54,7 +55,8 @@
         <h5 class="card-title">
           <span>White Choco Orea Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <input value="0" type="number" id="1">
+        <button onclick="addProduct(1)" type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -67,11 +69,18 @@
         <h5 class="card-title">
           <span>Mixed Dates Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <input value="0" type="number" id="2"> 
+        <button onclick="addProduct(2)" type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
 </div>
+<ul id="list">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<!-- <h5 class="total"></h5> -->
 </div>
 <!-- بونص 👑 -->
 <div id="loader">
@@ -90,6 +99,7 @@
   }
   */
 </script>
+<script src="./page.js"></script>
 </body>
 
 </html>
